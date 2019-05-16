@@ -1,0 +1,739 @@
+/*--------------------------------------------------------------
+    laptop, desktop
+---------------------------------------------------------------*/
+
+@media only screen and (min-width: 1280px) and (max-width: 1919px) {
+    .efency-img {
+        top: 10%;
+        width: 38%;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1279px) {
+    .efency-img {
+        top: 10%;
+        width: 45%;
+        right: 5%
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .logo {
+        margin-right: 30px;
+        width: 80px;
+        height: 80px;
+    }
+    .navbar-nav .nav-link.btn-link {
+        padding: 10px 50px;
+        margin-left: 10px;
+    }
+    .logo img {
+        max-width: 70px;
+    }
+    .hero-area {
+        padding: 300px 0 200px;
+    }
+    .person-img {
+        right: 60px;
+        bottom: 0;
+        width: 30%;
+    }
+    .hero-cont a {
+        background: #fff;
+    }
+    .highlight-img {
+        left: 20px;
+        top: -40px;
+        width: 25%;
+    }
+    .feat-img {
+        width: 55%;
+    }
+    .testi-area {
+        background-position: center;
+    }
+    .testi-item {
+        padding: 75px 30px 55px 75px;
+    }
+    .testi-wrap::before {
+        background-position: center;
+        right: 0;
+        top: -50px;
+        padding: 200px;
+        background-size: contain;
+    }
+    .efency-img {
+        right: 30px;
+        top: 150px;
+        width: 45%;
+    }
+    .efency-cont li img {
+        padding-right: 10px;
+    }
+    .feedback-item {
+        padding: 0 40px 55px;
+    }
+    .copyright-text h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+
+/*--------------------------------------------------------------
+    tablet
+---------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .logo img {
+        max-width: 70px;
+    }
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+    .icon-bar {
+        font-size: 30px;
+    }
+    #navbarContent {
+        margin: 20px 0 0;
+        background: #fff
+    }
+    .navbar-nav {
+        padding: 20px 20px 0;
+    }
+    .navbar-nav .nav-link {
+        display: inline-block;
+        padding: 4px 0
+    }
+    .navbar-nav.ml-auto {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    .navbar-nav .nav-link.active:after {
+        left: 0;
+        top: 32px;
+    }
+    .navbar-nav .nav-link.active {
+        padding-bottom: 14px;
+    }
+    .navbar-nav .nav-link.btn-link {
+        padding: 10px 40px;
+        margin: 14px 0 0;
+    }
+    h1 {
+        font-size: 56px;
+        line-height: 66px;
+    }
+    h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .person-img {
+        right: 50px;
+        width: 30%;
+    }
+    .hero-area {
+        padding: 200px 0 300px;
+    }
+    .hero-cont a {
+        background: #fff;
+    }
+    .btn-default {
+        padding: 12px 20px 12px 30px;
+    }
+    .highlight-area h3 {
+        position: relative;
+        z-index: 9;
+    }
+    .highlight-img {
+        left: 6%;
+    }
+    .feat-area {
+        padding: 100px 0 65px;
+    }
+    .feat-box {
+        padding: 70px 60px 300px;
+        overflow: hidden
+    }
+    .feat-cont h3 span {
+        font-size: 84px;
+        line-height: 94px;
+    }
+    .feat-img {
+        width: 80%;
+        right: -90px
+    }
+    .testi-item {
+        padding: 30px 0 0 65px;
+    }
+    .testi-wrap::before {
+        background-position: center;
+        right: 0;
+        padding: 180px;
+        background-size: contain;
+    }
+    .testi-area {
+        padding: 160px 0 100px;
+        background-position: center;
+    }
+    .efency-area {
+        padding: 100px 0;
+    }
+    .efency-img {
+        position: unset;
+        margin: 50px 0 0;
+    }
+    .efency-cont li img {
+        padding-right: 20px;
+    }
+    .efency-cont a {
+        padding: 10px 25px;
+    }
+    .feedback-item {
+        border-right: 1px solid #f2f2f2;
+        padding: 0 10px 20px;
+    }
+    .des-feedback-area {
+        padding: 100px 0 60px;
+    }
+    .sec-heading h2 {
+        margin-bottom: 30px;
+    }
+    .sec-heading {
+        padding: 0 0 80px;
+    }
+    .sec-heading.quote h2,
+    .sec-heading.faq h2 {
+        font-size: 56px;
+        line-height: 70px;
+    }
+    .sec-heading.quote {
+        padding: 0 0 50px;
+    }
+    .quote-item {
+        margin-bottom: 30px;
+    }
+    .quote-area {
+        padding: 100px 0 50px;
+    }
+    .footer {
+        padding-top: 50px;
+    }
+    .faq-box {
+        padding: 90px 0 80px;
+    }
+    .sec-heading.faq {
+        padding: 0 0 60px;
+    }
+    .footer-btm {
+        padding: 100px 0 80px;
+        text-align: center
+    }
+    .copyright-text {
+        text-align: center !important
+    }
+    .copyright-text h4 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 15px;
+    }
+
+}
+
+
+/*--------------------------------------------------------------
+    large mobile
+----------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .logo img {
+        max-width: 70px;
+    }
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+    .icon-bar {
+        font-size: 30px;
+    }
+    #navbarContent {
+        margin: 20px 0 0;
+        background: #fff
+    }
+    .navbar-nav {
+        padding: 20px 20px 0;
+    }
+    .navbar-nav .nav-link {
+        display: inline-block;
+        padding: 4px 0
+    }
+    .navbar-nav.ml-auto {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    .navbar-nav .nav-link.active:after {
+        left: 0;
+        top: 32px;
+    }
+    .navbar-nav .nav-link.active {
+        padding-bottom: 14px;
+    }
+    .navbar-nav .nav-link.btn-link {
+        padding: 10px 40px;
+        margin: 14px 0 0;
+    }
+    h1 {
+        font-size: 46px;
+        line-height: 56px;
+    }
+    h2 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    h3 {
+        font-size: 30px;
+        line-height: 40px
+    }
+    .person-img {
+        right: 30px;
+        width: 50%;
+    }
+    .hero-area {
+        padding: 200px 0 320px;
+        background-position: top
+    }
+    .btn-default {
+        padding: 10px 20px 10px 30px;
+    }
+    .highlight-img {
+        left: 30px;
+        top: -50px;
+        width: 40%;
+    }
+    .feat-area {
+        padding: 100px 0 65px;
+    }
+    .feat-img {
+        width: 50%;
+    }
+    .feat-cont h3 span {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .feat-box {
+        padding: 50px 30px 164px;
+    }
+    .testi-wrap::before {
+        background-position: center;
+        right: 0;
+        top: 70px;
+        padding: 210px;
+        background-size: contain;
+    }
+    .testi-item {
+        padding: 75px 30px 0 125px;
+        margin-top: 140px;
+    }
+    .testi-cont {
+        margin: 180px 0 0;
+    }
+    .testi-area {
+        padding: 100px 0;
+        background-position: top;
+    }
+    .testi-cont a {
+        border: 1px solid #e6f0fa;
+    }
+    .efency-img {
+        position: unset;
+        margin-top: 50px;
+    }
+    .efency-area {
+        padding: 0 0 100px;
+    }
+    .efency-cont a {
+        padding: 10px 25px;
+    }
+    .efency-cont li img {
+        padding-right: 15px;
+    }
+    .efency-cont ul {
+        margin: 36px 0 40px;
+    }
+    .des-feedback-area {
+        padding: 100px 0 25px;
+    }
+    .sec-heading {
+        padding: 0 0 70px;
+    }
+    .sec-heading h2 {
+        margin-bottom: 30px;
+    }
+    .sec-heading.quote h2,
+    .sec-heading.faq h2 {
+        font-size: 46px;
+        line-height: 60px;
+    }
+    .quote-item {
+        margin-bottom: 30px;
+    }
+    .quote-area {
+        padding: 90px 0 0;
+    }
+    .sec-heading.faq {
+        padding: 0 0 20px;
+    }
+    .faq-box {
+        padding: 80px 0;
+    }
+    .footer-btm {
+        padding: 90px 0 80px;
+        text-align: center;
+    }
+    .copyright-text {
+        text-align: center !important;
+    }
+    .copyright-text h4 {
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 10px;
+    }
+
+}
+
+
+/*--------------------------------------------------------------
+   medium mobile
+----------------------------------------------------------------*/
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+    .logo img {
+        max-width: 70px;
+    }
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+    .icon-bar {
+        font-size: 30px;
+    }
+    #navbarContent {
+        margin: 20px 0 0;
+        background: #fff
+    }
+    .navbar-nav {
+        padding: 20px 20px 0;
+    }
+    .navbar-nav .nav-link {
+        display: inline-block;
+        padding: 4px 0
+    }
+    .navbar-nav.ml-auto {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    .navbar-nav .nav-link.active:after {
+        left: 0;
+        top: 32px;
+    }
+    .navbar-nav .nav-link.active {
+        padding-bottom: 14px;
+    }
+    .navbar-nav .nav-link.btn-link {
+        padding: 10px 40px;
+        margin: 14px 0 0;
+    }
+    h1 {
+        font-size: 46px;
+        line-height: 56px;
+    }
+    h2 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    h3 {
+        font-size: 30px;
+        line-height: 40px
+    }
+    .person-img {
+        right: 30px;
+        width: 50%;
+    }
+    .hero-area {
+        padding: 200px 0 270px;
+        background-position: top
+    }
+    .btn-default {
+        padding: 10px 20px 10px 30px;
+    }
+    .highlight-img {
+        left: 30px;
+        top: -50px;
+        width: 40%;
+    }
+    .feat-area {
+        padding: 100px 0 65px;
+    }
+    .feat-img {
+        width: 70%;
+    }
+    .feat-cont h3 span {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .feat-box {
+        padding: 50px 30px 164px;
+    }
+    .testi-wrap::before {
+        background-position: center;
+        right: 0;
+        top: 70px;
+        padding: 165px;
+        background-size: contain;
+    }
+    .testi-item {
+        padding: 30px 0 0 80px;
+        margin-top: 140px;
+    }
+    .testi-cont {
+        margin: 120px 0 0;
+    }
+    .testi-area {
+        padding: 100px 0;
+        background-position: top;
+    }
+    .testi-cont a {
+        border: 1px solid #e6f0fa;
+    }
+    .efency-img {
+        position: unset;
+        margin-top: 50px;
+    }
+    .efency-area {
+        padding: 0 0 100px;
+    }
+    .efency-cont a {
+        padding: 10px 25px;
+    }
+    .efency-cont li img {
+        padding-right: 15px;
+    }
+    .efency-cont ul {
+        margin: 36px 0 40px;
+    }
+    .des-feedback-area {
+        padding: 100px 0 25px;
+    }
+    .sec-heading {
+        padding: 0 0 70px;
+    }
+    .sec-heading h2 {
+        margin-bottom: 30px;
+    }
+    .sec-heading.quote h2,
+    .sec-heading.faq h2 {
+        font-size: 46px;
+        line-height: 60px;
+    }
+    .quote-item {
+        margin-bottom: 30px;
+    }
+    .quote-area {
+        padding: 90px 0 0;
+    }
+    .sec-heading.faq {
+        padding: 0 0 20px;
+    }
+    .faq-box {
+        padding: 80px 0;
+    }
+    .footer-btm {
+        padding: 90px 0 80px;
+        text-align: center;
+    }
+    .copyright-text {
+        text-align: center !important;
+    }
+    .copyright-text h4 {
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 10px;
+    }
+    .efency-cont li {
+        line-height: 40px;
+    }
+    .feedback-item {
+        padding: 0 30px 55px;
+    }
+}
+
+
+/*--------------------------------------------------------------
+    small mobile
+----------------------------------------------------------------*/
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+    .logo img {
+        max-width: 70px;
+    }
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+    .icon-bar {
+        font-size: 30px;
+    }
+    #navbarContent {
+        margin: 20px 0 0;
+        background: #fff
+    }
+    .navbar-nav {
+        padding: 20px 20px 0;
+    }
+    .navbar-nav .nav-link {
+        display: inline-block;
+        padding: 4px 0
+    }
+    .navbar-nav.ml-auto {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    .navbar-nav .nav-link.active:after {
+        left: 0;
+        top: 32px;
+    }
+    .navbar-nav .nav-link.active {
+        padding-bottom: 14px;
+    }
+    .navbar-nav .nav-link.btn-link {
+        padding: 10px 40px;
+        margin: 14px 0 0;
+    }
+    h1 {
+        font-size: 46px;
+        line-height: 56px;
+    }
+    h2 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    h3 {
+        font-size: 30px;
+        line-height: 40px
+    }
+    .person-img {
+        right: 30px;
+        width: 50%;
+    }
+    .hero-area {
+        padding: 200px 0 270px;
+        background-position: top
+    }
+    .btn-default {
+        padding: 10px 20px 10px 30px;
+    }
+    .highlight-img {
+        left: 30px;
+        top: -40px;
+        width: 40%;
+    }
+    .feat-area {
+        padding: 100px 0 65px;
+    }
+    .feat-img {
+        width: 70%;
+    }
+    .feat-cont h3 span {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .feat-box {
+        padding: 50px 30px 164px;
+    }
+    .testi-wrap::before {
+        background-position: center;
+        right: 0;
+        top: 70px;
+        padding: 165px;
+        background-size: contain;
+    }
+    .testi-item {
+        padding: 30px 0 0 40px;
+        margin-top: 140px;
+    }
+    .testi-cont {
+        margin: 120px 0 0;
+    }
+    .testi-area {
+        padding: 100px 0;
+        background-position: top;
+    }
+    .testi-cont a {
+        border: 1px solid #e6f0fa;
+    }
+    .efency-img {
+        position: unset;
+        margin-top: 50px;
+    }
+    .efency-area {
+        padding: 0 0 100px;
+    }
+    .efency-cont a {
+        padding: 10px 20px;
+        font-size: 11px
+    }
+    .efency-cont li img {
+        padding-right: 15px;
+    }
+    .efency-cont ul {
+        margin: 36px 0 40px;
+    }
+    .des-feedback-area {
+        padding: 100px 0 25px;
+    }
+    .sec-heading {
+        padding: 0 0 70px;
+    }
+    .sec-heading h2 {
+        margin-bottom: 30px;
+    }
+    .sec-heading.quote h2,
+    .sec-heading.faq h2 {
+        font-size: 46px;
+        line-height: 60px;
+    }
+    .quote-item {
+        margin-bottom: 30px;
+    }
+    .quote-area {
+        padding: 90px 0 0;
+    }
+    .sec-heading.faq {
+        padding: 0 0 20px;
+    }
+    .faq-box {
+        padding: 80px 0;
+    }
+    .footer-btm {
+        padding: 90px 0 80px;
+        text-align: center;
+    }
+    .copyright-text {
+        text-align: center !important;
+    }
+    .copyright-text h4 {
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 10px;
+    }
+    .efency-cont li {
+        line-height: 40px;
+    }
+    .feedback-item {
+        padding: 0 30px 55px;
+    }
+    #accordion {
+        padding: 0 15px;
+    }
+}
